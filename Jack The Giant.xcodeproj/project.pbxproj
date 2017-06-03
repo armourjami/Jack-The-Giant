@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91A6AD881EE2B44B0076373D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A6AD871EE2B44B0076373D /* AppDelegate.swift */; };
+		91A6AD8A1EE2B44B0076373D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91A6AD891EE2B44B0076373D /* GameScene.sks */; };
+		91A6AD8C1EE2B44B0076373D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91A6AD8B1EE2B44B0076373D /* Actions.sks */; };
+		91A6AD8E1EE2B44B0076373D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A6AD8D1EE2B44B0076373D /* GameScene.swift */; };
+		91A6AD901EE2B44B0076373D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A6AD8F1EE2B44B0076373D /* GameViewController.swift */; };
+		91A6AD931EE2B44B0076373D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A6AD911EE2B44B0076373D /* Main.storyboard */; };
+		91A6AD951EE2B44B0076373D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A6AD941EE2B44B0076373D /* Assets.xcassets */; };
+		91A6AD981EE2B44B0076373D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A6AD961EE2B44B0076373D /* LaunchScreen.storyboard */; };
+		91A6ADA31EE2B44C0076373D /* Jack_The_GiantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A6ADA21EE2B44C0076373D /* Jack_The_GiantTests.swift */; };
+		91A6ADAE1EE2B44C0076373D /* Jack_The_GiantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A6ADAD1EE2B44C0076373D /* Jack_The_GiantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91A6AD9F1EE2B44C0076373D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91A6AD7C1EE2B44B0076373D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A6AD831EE2B44B0076373D;
+			remoteInfo = "Jack The Giant";
+		};
+		91A6ADAA1EE2B44C0076373D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91A6AD7C1EE2B44B0076373D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A6AD831EE2B44B0076373D;
+			remoteInfo = "Jack The Giant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91A6AD841EE2B44B0076373D /* Jack The Giant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack The Giant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A6AD871EE2B44B0076373D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91A6AD891EE2B44B0076373D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		91A6AD8B1EE2B44B0076373D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		91A6AD8D1EE2B44B0076373D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		91A6AD8F1EE2B44B0076373D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		91A6AD921EE2B44B0076373D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91A6AD941EE2B44B0076373D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91A6AD971EE2B44B0076373D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91A6AD991EE2B44B0076373D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A6AD9E1EE2B44C0076373D /* Jack The GiantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jack The GiantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A6ADA21EE2B44C0076373D /* Jack_The_GiantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_The_GiantTests.swift; sourceTree = "<group>"; };
+		91A6ADA41EE2B44C0076373D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A6ADA91EE2B44C0076373D /* Jack The GiantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jack The GiantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A6ADAD1EE2B44C0076373D /* Jack_The_GiantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_The_GiantUITests.swift; sourceTree = "<group>"; };
+		91A6ADAF1EE2B44C0076373D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91A6AD811EE2B44B0076373D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A6AD9B1EE2B44C0076373D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A6ADA61EE2B44C0076373D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91A6AD7B1EE2B44B0076373D = {
+			isa = PBXGroup;
+			children = (
+				91A6AD861EE2B44B0076373D /* Jack The Giant */,
+				91A6ADA11EE2B44C0076373D /* Jack The GiantTests */,
+				91A6ADAC1EE2B44C0076373D /* Jack The GiantUITests */,
+				91A6AD851EE2B44B0076373D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91A6AD851EE2B44B0076373D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91A6AD841EE2B44B0076373D /* Jack The Giant.app */,
+				91A6AD9E1EE2B44C0076373D /* Jack The GiantTests.xctest */,
+				91A6ADA91EE2B44C0076373D /* Jack The GiantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91A6AD861EE2B44B0076373D /* Jack The Giant */ = {
+			isa = PBXGroup;
+			children = (
+				91A6AD871EE2B44B0076373D /* AppDelegate.swift */,
+				91A6AD891EE2B44B0076373D /* GameScene.sks */,
+				91A6AD8B1EE2B44B0076373D /* Actions.sks */,
+				91A6AD8D1EE2B44B0076373D /* GameScene.swift */,
+				91A6AD8F1EE2B44B0076373D /* GameViewController.swift */,
+				91A6AD911EE2B44B0076373D /* Main.storyboard */,
+				91A6AD941EE2B44B0076373D /* Assets.xcassets */,
+				91A6AD961EE2B44B0076373D /* LaunchScreen.storyboard */,
+				91A6AD991EE2B44B0076373D /* Info.plist */,
+			);
+			path = "Jack The Giant";
+			sourceTree = "<group>";
+		};
+		91A6ADA11EE2B44C0076373D /* Jack The GiantTests */ = {
+			isa = PBXGroup;
+			children = (
+				91A6ADA21EE2B44C0076373D /* Jack_The_GiantTests.swift */,
+				91A6ADA41EE2B44C0076373D /* Info.plist */,
+			);
+			path = "Jack The GiantTests";
+			sourceTree = "<group>";
+		};
+		91A6ADAC1EE2B44C0076373D /* Jack The GiantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91A6ADAD1EE2B44C0076373D /* Jack_The_GiantUITests.swift */,
+				91A6ADAF1EE2B44C0076373D /* Info.plist */,
+			);
+			path = "Jack The GiantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91A6AD831EE2B44B0076373D /* Jack The Giant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A6ADB21EE2B44C0076373D /* Build configuration list for PBXNativeTarget "Jack The Giant" */;
+			buildPhases = (
+				91A6AD801EE2B44B0076373D /* Sources */,
+				91A6AD811EE2B44B0076373D /* Frameworks */,
+				91A6AD821EE2B44B0076373D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jack The Giant";
+			productName = "Jack The Giant";
+			productReference = 91A6AD841EE2B44B0076373D /* Jack The Giant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91A6AD9D1EE2B44C0076373D /* Jack The GiantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A6ADB51EE2B44C0076373D /* Build configuration list for PBXNativeTarget "Jack The GiantTests" */;
+			buildPhases = (
+				91A6AD9A1EE2B44C0076373D /* Sources */,
+				91A6AD9B1EE2B44C0076373D /* Frameworks */,
+				91A6AD9C1EE2B44C0076373D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91A6ADA01EE2B44C0076373D /* PBXTargetDependency */,
+			);
+			name = "Jack The GiantTests";
+			productName = "Jack The GiantTests";
+			productReference = 91A6AD9E1EE2B44C0076373D /* Jack The GiantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91A6ADA81EE2B44C0076373D /* Jack The GiantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A6ADB81EE2B44C0076373D /* Build configuration list for PBXNativeTarget "Jack The GiantUITests" */;
+			buildPhases = (
+				91A6ADA51EE2B44C0076373D /* Sources */,
+				91A6ADA61EE2B44C0076373D /* Frameworks */,
+				91A6ADA71EE2B44C0076373D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91A6ADAB1EE2B44C0076373D /* PBXTargetDependency */,
+			);
+			name = "Jack The GiantUITests";
+			productName = "Jack The GiantUITests";
+			productReference = 91A6ADA91EE2B44C0076373D /* Jack The GiantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91A6AD7C1EE2B44B0076373D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jamie Armour";
+				TargetAttributes = {
+					91A6AD831EE2B44B0076373D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					91A6AD9D1EE2B44C0076373D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91A6AD831EE2B44B0076373D;
+					};
+					91A6ADA81EE2B44C0076373D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91A6AD831EE2B44B0076373D;
+					};
+				};
+			};
+			buildConfigurationList = 91A6AD7F1EE2B44B0076373D /* Build configuration list for PBXProject "Jack The Giant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91A6AD7B1EE2B44B0076373D;
+			productRefGroup = 91A6AD851EE2B44B0076373D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A6AD831EE2B44B0076373D /* Jack The Giant */,
+				91A6AD9D1EE2B44C0076373D /* Jack The GiantTests */,
+				91A6ADA81EE2B44C0076373D /* Jack The GiantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91A6AD821EE2B44B0076373D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A6AD931EE2B44B0076373D /* Main.storyboard in Resources */,
+				91A6AD8A1EE2B44B0076373D /* GameScene.sks in Resources */,
+				91A6AD951EE2B44B0076373D /* Assets.xcassets in Resources */,
+				91A6AD981EE2B44B0076373D /* LaunchScreen.storyboard in Resources */,
+				91A6AD8C1EE2B44B0076373D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A6AD9C1EE2B44C0076373D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A6ADA71EE2B44C0076373D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91A6AD801EE2B44B0076373D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A6AD8E1EE2B44B0076373D /* GameScene.swift in Sources */,
+				91A6AD901EE2B44B0076373D /* GameViewController.swift in Sources */,
+				91A6AD881EE2B44B0076373D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A6AD9A1EE2B44C0076373D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A6ADA31EE2B44C0076373D /* Jack_The_GiantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A6ADA51EE2B44C0076373D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A6ADAE1EE2B44C0076373D /* Jack_The_GiantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91A6ADA01EE2B44C0076373D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A6AD831EE2B44B0076373D /* Jack The Giant */;
+			targetProxy = 91A6AD9F1EE2B44C0076373D /* PBXContainerItemProxy */;
+		};
+		91A6ADAB1EE2B44C0076373D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A6AD831EE2B44B0076373D /* Jack The Giant */;
+			targetProxy = 91A6ADAA1EE2B44C0076373D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91A6AD911EE2B44B0076373D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A6AD921EE2B44B0076373D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91A6AD961EE2B44B0076373D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A6AD971EE2B44B0076373D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91A6ADB01EE2B44C0076373D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91A6ADB11EE2B44C0076373D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91A6ADB31EE2B44C0076373D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jack The Giant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamiegame.Jack-The-Giant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91A6ADB41EE2B44C0076373D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jack The Giant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamiegame.Jack-The-Giant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		91A6ADB61EE2B44C0076373D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jack The GiantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamiegame.Jack-The-GiantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jack The Giant.app/Jack The Giant";
+			};
+			name = Debug;
+		};
+		91A6ADB71EE2B44C0076373D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jack The GiantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamiegame.Jack-The-GiantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jack The Giant.app/Jack The Giant";
+			};
+			name = Release;
+		};
+		91A6ADB91EE2B44C0076373D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Jack The GiantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamiegame.Jack-The-GiantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Jack The Giant";
+			};
+			name = Debug;
+		};
+		91A6ADBA1EE2B44C0076373D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Jack The GiantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamiegame.Jack-The-GiantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Jack The Giant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91A6AD7F1EE2B44B0076373D /* Build configuration list for PBXProject "Jack The Giant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A6ADB01EE2B44C0076373D /* Debug */,
+				91A6ADB11EE2B44C0076373D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A6ADB21EE2B44C0076373D /* Build configuration list for PBXNativeTarget "Jack The Giant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A6ADB31EE2B44C0076373D /* Debug */,
+				91A6ADB41EE2B44C0076373D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91A6ADB51EE2B44C0076373D /* Build configuration list for PBXNativeTarget "Jack The GiantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A6ADB61EE2B44C0076373D /* Debug */,
+				91A6ADB71EE2B44C0076373D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91A6ADB81EE2B44C0076373D /* Build configuration list for PBXNativeTarget "Jack The GiantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A6ADB91EE2B44C0076373D /* Debug */,
+				91A6ADBA1EE2B44C0076373D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91A6AD7C1EE2B44B0076373D /* Project object */;
+}
