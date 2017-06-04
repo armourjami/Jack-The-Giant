@@ -24,7 +24,7 @@ class GameViewController: UIViewController {
                 
                 // Present the scene
                 if let view = self.view as! SKView? {
-                    view.preferredFramesPerSecond = 60;
+                    view.preferredFramesPerSecond = 30;
                     
                     view.presentScene(scene)
                     
