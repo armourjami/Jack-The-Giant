@@ -52,6 +52,8 @@
 		917C4A961EE407A200C3F3CA /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 917C4A8D1EE407A200C3F3CA /* Player 8.png */; };
 		917C4A971EE407A200C3F3CA /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 917C4A8E1EE407A200C3F3CA /* Player.atlas */; };
 		917C4A9A1EE4085900C3F3CA /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 917C4A991EE4085900C3F3CA /* GameplayScene.sks */; };
+		917C4A9E1EE4D2D100C3F3CA /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917C4A9D1EE4D2D100C3F3CA /* BGClass.swift */; };
+		917C4AA11EE4DBC100C3F3CA /* CloudsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917C4AA01EE4DBC100C3F3CA /* CloudsController.swift */; };
 		91A6AD881EE2B44B0076373D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A6AD871EE2B44B0076373D /* AppDelegate.swift */; };
 		91A6AD8A1EE2B44B0076373D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91A6AD891EE2B44B0076373D /* GameScene.sks */; };
 		91A6AD8C1EE2B44B0076373D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91A6AD8B1EE2B44B0076373D /* Actions.sks */; };
@@ -127,6 +129,8 @@
 		917C4A8D1EE407A200C3F3CA /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
 		917C4A8E1EE407A200C3F3CA /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player.atlas; sourceTree = "<group>"; };
 		917C4A991EE4085900C3F3CA /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		917C4A9D1EE4D2D100C3F3CA /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
+		917C4AA01EE4DBC100C3F3CA /* CloudsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudsController.swift; sourceTree = "<group>"; };
 		91A6AD841EE2B44B0076373D /* Jack The Giant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack The Giant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A6AD871EE2B44B0076373D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91A6AD891EE2B44B0076373D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 		917C4A2A1EE4026600C3F3CA /* Game Classes */ = {
 			isa = PBXGroup;
 			children = (
+				917C4A9F1EE4DBAC00C3F3CA /* Cloud Class */,
+				917C4A9B1EE4D2B000C3F3CA /* Backgrounds */,
 				917C4A2B1EE4029600C3F3CA /* Player Class */,
 				917C4A2C1EE4029F00C3F3CA /* Scene Classes */,
 			);
@@ -346,6 +352,22 @@
 				917C4A991EE4085900C3F3CA /* GameplayScene.sks */,
 			);
 			name = Scenes;
+			sourceTree = "<group>";
+		};
+		917C4A9B1EE4D2B000C3F3CA /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				917C4A9D1EE4D2D100C3F3CA /* BGClass.swift */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		917C4A9F1EE4DBAC00C3F3CA /* Cloud Class */ = {
+			isa = PBXGroup;
+			children = (
+				917C4AA01EE4DBC100C3F3CA /* CloudsController.swift */,
+			);
+			name = "Cloud Class";
 			sourceTree = "<group>";
 		};
 		91A6AD7B1EE2B44B0076373D = {
@@ -584,11 +606,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917C4AA11EE4DBC100C3F3CA /* CloudsController.swift in Sources */,
 				917C4A301EE404D400C3F3CA /* GameplayScene.swift in Sources */,
 				91A6AD8E1EE2B44B0076373D /* GameScene.swift in Sources */,
 				917C4A331EE4070400C3F3CA /* PlayerClass.swift in Sources */,
 				91A6AD901EE2B44B0076373D /* GameViewController.swift in Sources */,
 				91A6AD881EE2B44B0076373D /* AppDelegate.swift in Sources */,
+				917C4A9E1EE4D2D100C3F3CA /* BGClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
