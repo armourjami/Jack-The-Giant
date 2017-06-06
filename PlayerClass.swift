@@ -8,6 +8,12 @@
 
 import SpriteKit
 
+struct ColliderType {
+    static let PLAYER: UInt32 = 0;
+    static let CLOUD: UInt32 = 1;
+    static let DARK_CLOUD_AND_COLLECTABLES: UInt32 = 2;
+}
+
 class Player: SKSpriteNode {
     
     private var textureAtlas = SKTextureAtlas();
@@ -18,14 +24,21 @@ class Player: SKSpriteNode {
         
         textureAtlas = SKTextureAtlas(named: "Player.atlas");
         
-        print(textureAtlas.textureNames);
-        
         for i in 2...textureAtlas.textureNames.count {
             let name = "Player \(i)";
             playerAnimation.append(SKTexture(imageNamed: name));
         }
         
         animatePlayerAction = SKAction.animate(with: playerAnimation, timePerFrame: 0.08, resize: true, restore: false);
+        
+        self.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: self.size.width - 50, height: self.size.height - 5));
+        self.physicsBody?.affectedByGravity = true;
+        self.physicsBody?.allowsRotation = false;
+        self.physicsBody?.restitution = 0;
+        self.physicsBody?.categoryBitMask = ColliderType.PLAYER;
+        self.physicsBody?.collisionBitMask = ColliderType.CLOUD;
+        self.physicsBody?.contactTestBitMask = ColliderType.DARK_CLOUD_AND_COLLECTABLES;
+        
         
     }
     

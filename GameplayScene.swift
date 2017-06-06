@@ -19,13 +19,15 @@ class GameplayScene: SKScene {
     
     var mainCamera: SKCameraNode?
     
+    private var cameraDistanceBeforeCreatingNewClouds = CGFloat();
+    
     var bg1: BGClass?;
     var bg2: BGClass?;
     var bg3: BGClass?;
     
     var distanceBetweenClouds = CGFloat(240);
-    var minX = CGFloat(85);
-    var maxX = CGFloat(392);
+    var minX = CGFloat(-148);
+    var maxX = CGFloat(148);
     
     var cloudsController = CloudsController();
 
@@ -53,6 +55,9 @@ class GameplayScene: SKScene {
         
         cloudsController.arrangeCloudsInScene(scene: self.scene!, distanceBetweenClouds: 240, center: center!, minX: minX, maxX: maxX, initialClouds: true);
         
+        cameraDistanceBeforeCreatingNewClouds = mainCamera!.position.y - 400;
+
+        
     }
     
     
@@ -61,6 +66,7 @@ class GameplayScene: SKScene {
         managePlayer();
         moveCamera();
         manageBackgrounds();
+        createNewClouds();
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -94,6 +100,30 @@ class GameplayScene: SKScene {
     func moveCamera () {
         //slowly move the camera
         self.mainCamera?.position.y -= 3;
+    }
+    
+    func createNewClouds () {
+        if cameraDistanceBeforeCreatingNewClouds > mainCamera!.position.y {
+            cameraDistanceBeforeCreatingNewClouds = mainCamera!.position.y - 400;
+
+            cloudsController.arrangeCloudsInScene(scene: self.scene!, distanceBetweenClouds: distanceBetweenClouds, center: center!, minX: minX, maxX: maxX, initialClouds: false);
+            
+            checkForChildsOutOfScreen();
+        }
+    }
+    
+    private func checkForChildsOutOfScreen() {
+        for child in children {
+            if child.position.y > mainCamera!.position.y + self.scene!.size.height {
+                
+                let childName = child.name?.components(separatedBy: " ");
+                
+                if childName![0] != "BG" {
+                    child.removeFromParent();
+                }
+                
+            }
+        }
     }
     
     func manageBackgrounds () {
